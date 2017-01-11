@@ -1,0 +1,163 @@
+.wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+.wrapper.index {
+  padding-top: 70px;
+}
+
+.top-links {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+}
+
+.logo h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  *zoom: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 315px;
+  -webkit-box-shadow: rgba(white,$opacity) 0 1px 0, inset rgba(black,$opacity2) 0 1px 0;
+  box-shadow: rgba(white,$opacity) 0 1px 0, inset rgba(black,$opacity2) 0 1px 0;
+}
+.links:before, .links:after {
+  display: table;
+  content: '';
+  line-height: 0;
+}
+.links:after {
+  clear: both;
+}
+.links li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.links li:first-child {
+  padding-left: 0;
+}
+.links li:last-child {
+  padding-right: 0;
+}
+.links li.last {
+  padding-right: 0;
+}
+.links li a {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form.search {
+  margin-top: 15px;
+}
+form.search input {
+  width: 80%;
+  padding: 3px 10px;
+}
+form.search input.submit {
+  width: 150px;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+form.search input.submit:hover {
+  border: 1px solid #999;
+}
+
+.modal-body {
+  text-align: left;
+}
+
+.modal-dialog {
+  width: 400px;
+}
+
+.header {
+  height: 60px;
+  margin: 15px 0 30px;
+  text-align: left;
+  position: relative;
+}
+.header .logo {
+  display: inline-block;
+}
+.header .search {
+  width: 72%;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+.sidebar-links.well {
+  padding: 5px 0 8px;
+  font-size: 14px;
+  font-family: helvetica;
+}
+.sidebar-links.well .nav li.nav-header {
+  display: block;
+  padding: 3px 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #999999;
+  text-transform: uppercase;
+}
+.sidebar-links.well .nav li.divider {
+  height: 1px;
+  margin: 5px 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ddd;
+}
+.sidebar-links.well .nav a {
+  padding: 7px 25px;
+}
+.sidebar-links.well .nav a.active {
+  background: #3aa949;
+  color: white;
+}
+
+.content {
+  padding: 0 25px;
+}
+.content h1 {
+  font-family: garamond;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.content .innerdiv {
+  margin-top: 25px;
+}
+.content form.search {
+  width: 80%;
+}
+
+table {
+  font-size: 14px;
+}
+
+hr.divider {
+  border-top: 1px solid #aaa;
+}

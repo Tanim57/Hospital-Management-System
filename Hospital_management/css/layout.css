@@ -1,0 +1,33 @@
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.sidebar {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 300px;
+}
+
+.content {
+  width: 73%;
+  float: right;
+  margin-right: 0;
+  height: 468px;
+}

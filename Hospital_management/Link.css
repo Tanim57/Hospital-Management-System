@@ -1,0 +1,39 @@
+﻿.fix_links {
+    float:right;
+    margin-top:20px;
+    margin-right:10px;
+    background-color:dimgray;
+    border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+    height: 265px;
+}
+    .fix_links h2 {
+        color:white;
+    }
+
+     .fix_links ul {
+        margin:0px;
+        padding:0px;
+        list-style:none;
+    }
+        .fix_links ul li {
+            padding:5px;
+            
+            
+        }
+            .fix_links ul li a {
+                color:mediumaquamarine;
+             display:block;
+             text-decoration:none;
+             -webkit-transition: all 0.3s ease-out;
+transition: all 0.7s ease-out;
+            }
+                .fix_links ul li a:hover {
+                   
+     background-color:gray;
+     border-radius:5px;
+     -webkit-transform:scale3d();
+       transform:scale3d();
+                }
